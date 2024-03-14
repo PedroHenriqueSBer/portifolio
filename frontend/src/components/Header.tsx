@@ -2,7 +2,7 @@ import { FileText, Github } from "lucide-react"
 
 export const Header = () => {
   return (
-    <header className="w-full p-4 min-w-[40rem] bg-slate-100 shadow flex items-center justify-between absolute">
+    <header className="w-full p-4 min-w-[35rem] bg-slate-100 shadow flex items-center justify-between absolute">
       <div>
         <h1 className="font-semibold text-slate-900">Pedro Henrique de Sousa Bernardes</h1>
       </div>

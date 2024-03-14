@@ -8,9 +8,9 @@ import { HomeIcon, Mail, Phone } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 min-w-[40rem]">
+    <div className="bg-gray-100 min-w-[35rem]">
       <Header />
-      <div className="flex gap-[8rem] h-screen items-center justify-center flex-col-reverse lg:flex-row">
+      <div className="flex gap-[2rem] lg:gap-[8rem] pt-[2rem] lg:pt-[0] h-screen items-center justify-center flex-col-reverse lg:flex-row">
         <div className="flex flex-col w-[30rem] items-center justify-center">
           <h1 className="text-3xl text-slate-800 font-bold">Olá, Bem Vindo(a)</h1>
           <div className="w-[23rem] h-2 rounded-full bg-slate-700 mb-2"/>
