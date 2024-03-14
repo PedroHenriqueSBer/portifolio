@@ -2,7 +2,7 @@ import { FileText, Github } from "lucide-react"
 
 export const Header = () => {
   return (
-    <header className="w-full p-4 bg-slate-100 shadow flex items-center justify-between absolute">
+    <header className="w-full p-4 min-w-[40rem] bg-slate-100 shadow flex items-center justify-between absolute">
       <div>
         <h1 className="font-semibold text-slate-900">Pedro Henrique de Sousa Bernardes</h1>
       </div>
@@ -12,7 +12,7 @@ export const Header = () => {
             <Github />
           </a>
         </div>
-        <a target="_blank" href="" className="flex gap-2 items-center bg-slate-800 text-slate-200 rounded px-2 hover:bg-slate-700">
+        <a href="./File/Pedro.pdf" download={'Pedro.pdf'}  className="flex gap-2 items-center bg-slate-800 text-slate-200 rounded px-2 hover:bg-slate-700">
           <FileText />
           Currículo
         </a>

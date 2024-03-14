@@ -8,9 +8,9 @@ import { HomeIcon, Mail, Phone } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 min-w-[40rem]">
       <Header />
-      <div className="flex gap-[8rem] h-screen items-center justify-center">
+      <div className="flex gap-[8rem] h-screen items-center justify-center flex-col-reverse lg:flex-row">
         <div className="flex flex-col w-[30rem] items-center justify-center">
           <h1 className="text-3xl text-slate-800 font-bold">Olá, Bem Vindo(a)</h1>
           <div className="w-[23rem] h-2 rounded-full bg-slate-700 mb-2"/>
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <img className="rounded shadow-lg" src="https://github.com/PedroHenriqueSBer/portifolio/blob/main/frontend/src/assets/Images/templateImage.png?raw=true" alt="" />
       </div>
-      <div className="gap-4 flex justify-center p-8">
+      <div className="gap-4 flex justify-center items-center p-8 flex-col lg:items-stretch lg:flex-row">
         <Card
           title="Hard Skills"
         > 
