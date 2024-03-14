@@ -1,0 +1,77 @@
+{
+    "HardSkills": [
+        {
+            "id": 0,
+            "name": "Python",
+            "percentage": "76%"
+        },
+        {
+            "id": 1,
+            "name": "Angular",
+            "percentage": "64%"
+        },
+        {
+            "id": 2,
+            "name": "html/css/js/ts",
+            "percentage": "96%"
+        },
+        {
+            "id": 3,
+            "name": "React",
+            "percentage": "87%"
+        },
+        {
+            "id": 4,
+            "name": "Next js",
+            "percentage": "67%"
+        },
+        {
+            "id": 5,
+            "name": "Git",
+            "percentage": "37%"
+        },
+        {
+            "id": 6,
+            "name": "C#",
+            "percentage": "75%"
+        },
+        {
+            "id": 7,
+            "name": "Entity Framework Core",
+            "percentage": "56%"
+        },
+        {
+            "id": 8,
+            "name": "Inglês",
+            "percentage": "45%"
+        }
+    ],
+    "SoftSkills": [
+        {
+            "id": 0,
+            "name": "Boa Comunicação"
+        },
+        {
+            "id": 1,
+            "name": "Trabalho em equipe"
+        },
+        {
+            "id": 2,
+            "name": "Fácil entendimento"
+        }
+    ],
+    "Experiences": [
+        {
+            "id": 0,
+            "name": "A2W",
+            "description": "um estágio que eu aprendi sobre git, angular, aprimorei meu css, html e principalmente o javascript, e aprendi typescript",
+            "Duration": "2 meses"
+        },
+        {
+            "id": 1,
+            "name": "Legal Control",
+            "description": "um estágio que eu estou aprimorando minhas habilidades em react e c# (Entity Framework) e em next js, e também em python",
+            "Duration": "Trabalhando desde Julho de 2023"
+        }
+    ]
+}
