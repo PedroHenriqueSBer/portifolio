@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100">
       <Header />
-      <div className="flex justify-center h-screen items-center rounded-full">
+      <div className="grid grid-cols-2 h-screen p-8 items-center">
         <div className="flex flex-col w-[30rem] items-center justify-center">
           <h1 className="text-2xl text-slate-800">Olá, Bem Vindo(a)</h1>
           <div className="w-[14rem] h-2 rounded-full bg-slate-700 mb-4"/>
