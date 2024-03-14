@@ -15,7 +15,7 @@ export const Card = ({
             <header>
                 <h1 className="font-semibold text-lg text-slate-900">{title}</h1>
             </header>
-            <div className="w-full h-1 rounded-full mb-3 bg-slate-800" />
+            <div className="w-full h-1 rounded-full mb-3 bg-slate-700" />
             <div>
                 {children}
             </div>

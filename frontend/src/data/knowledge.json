@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "Python",
-            "percentage": "76%"
+            "percentage": "73%"
         },
         {
             "id": 1,
@@ -13,22 +13,22 @@
         {
             "id": 2,
             "name": "html/css/js/ts",
-            "percentage": "96%"
+            "percentage": "89%"
         },
         {
             "id": 3,
             "name": "React",
-            "percentage": "87%"
+            "percentage": "86%"
         },
         {
             "id": 4,
             "name": "Next js",
-            "percentage": "67%"
+            "percentage": "65%"
         },
         {
             "id": 5,
             "name": "Git",
-            "percentage": "37%"
+            "percentage": "46%"
         },
         {
             "id": 6,
@@ -43,7 +43,7 @@
         {
             "id": 8,
             "name": "Inglês",
-            "percentage": "45%"
+            "percentage": "43%"
         }
     ],
     "SoftSkills": [
@@ -64,13 +64,13 @@
         {
             "id": 0,
             "name": "A2W",
-            "description": "um estágio que eu aprendi sobre git, angular, aprimorei meu css, html e principalmente o javascript, e aprendi typescript",
+            "description": "Durante um estágio, adquiri conhecimento em Git, Angular e TypeScript, aprimorei minhas habilidades em CSS, HTML e, principalmente, JavaScript.",
             "Duration": "2 meses"
         },
         {
             "id": 1,
             "name": "Legal Control",
-            "description": "um estágio que eu estou aprimorando minhas habilidades em react e c# (Entity Framework) e em next js, e também em python",
+            "description": "Durante um estágio em uma empresa que desenvolve softwares jurídicos, estou aprimorando minhas habilidades em React e C# (Entity Framework), além de aprender Next.js e Python.",
             "Duration": "Trabalhando desde Julho de 2023"
         }
     ]

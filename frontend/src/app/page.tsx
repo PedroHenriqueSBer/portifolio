@@ -1,23 +1,37 @@
+/* eslint-disable @next/next/no-img-element */
 import { Header } from "@/components/Header";
 import { ProgressionBar } from "@/components/ProgressionBar";
 import { Card } from "@/components/card";
 import { HardSkills, SoftSkills, Experiences } from '@/data/knowledge.json'
+import { HomeIcon, Mail, Phone } from "lucide-react";
 
 
 export default function Home() {
   return (
     <div className="bg-gray-100">
       <Header />
-      <div className="grid grid-cols-2 h-screen p-8 items-center">
+      <div className="flex gap-[8rem] h-screen items-center justify-center">
         <div className="flex flex-col w-[30rem] items-center justify-center">
-          <h1 className="text-2xl text-slate-800">Olá, Bem Vindo(a)</h1>
-          <div className="w-[14rem] h-2 rounded-full bg-slate-700 mb-4"/>
-
-          <div className="text-center text-slate-800">
-            Portifólio do Pedro Henrique de Sousa Bernardes, Um desenvolvedor Web fullsteack
+          <h1 className="text-3xl text-slate-800 font-bold">Olá, Bem Vindo(a)</h1>
+          <div className="w-[23rem] h-2 rounded-full bg-slate-700 mb-2"/>
+          <div className="text-slate-800 flex gap-4 mb-4">
+            <p className="flex items-center gap-2 text-sm font-light">
+              <Phone className="w-4 h-4"/>
+              (35) 99912-6968
+            </p>
+            <p className="flex items-center gap-2 text-sm font-light">
+              <Mail className="w-4 h-4" />
+              PedroHsB55@outlook.com
+            </p>
           </div>
+          
+          <p className="text-center text-slate-800">
+          Portfólio de Pedro Henrique de Sousa Bernardes Desenvolvedor Web Full Stack
+          </p>
+
+          
         </div>
-        <img src="https://github.com/PedroHenriqueSBer/portifolio/blob/main/frontend/src/assets/Images/templateImage.png?raw=true" alt="" />
+        <img className="rounded shadow-lg" src="https://github.com/PedroHenriqueSBer/portifolio/blob/main/frontend/src/assets/Images/templateImage.png?raw=true" alt="" />
       </div>
       <div className="gap-4 flex justify-center p-8">
         <Card
@@ -26,7 +40,7 @@ export default function Home() {
           <div className="w-[14rem] px-2">
             {HardSkills.map(Hs => 
               <div key={Hs.id} className="w-[16rem]">
-                <h3 className="text-lg font-semibold">{Hs.name}</h3>
+                <h3 className="text-lg font-semibold text-slate-700">{Hs.name}</h3>
                 <div className="px-2">
                   <ProgressionBar percentage={Hs.percentage}  />
                 </div>
